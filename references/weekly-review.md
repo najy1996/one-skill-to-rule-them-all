@@ -107,7 +107,7 @@ Also read all active cross-cutting principles. If there are no OPEN
 observations and no outstanding principles: report "no open observations
 or outstanding principles", update the timestamp, and stop.
 
-**Step 2 — inventory skills.** List all skills (system prompt
+**Step 2 — inventory skills.** List all skills, workflow scripts (`~/.claude/workflows`) and agents (`~/.claude/agents`) — the skill list shows all three (system prompt
 `<available_skills>` or the skills directory). Only user-owned custom
 skills can be updated. Known read-only system skills: docx, pdf, xlsx,
 pptx, skill-creator, schedule (grow this list when an update fails for
