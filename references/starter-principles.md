@@ -1,6 +1,6 @@
 # Starter Cross-Cutting Principles (optional seed)
 
-Starter set version: 2
+Starter set version: 3
 
 This file is NOT the adopter's principles file. It is an optional seed:
 a curated set of generic methodology principles, accumulated over a long
@@ -140,10 +140,14 @@ author; the requirement is that there *be* a licence.
 
 ### 2. Open-source skills must include author attribution and a feedback pathway
 **Applies to:** all open-source skills
-**Requirement:** Include an attribution block at the top of the skill with
-author name, contact link, licence statement, and a feedback and support
-pathway (an issue tracker, a repository, a contact address). A published
-skill without a route back to its author cannot improve from its readers.
+**Requirement:** Carry author and licence in the frontmatter (`license:`
+plus `metadata:` with author and source) and repeat them in a one-line
+footer at the end of the skill, which survives tools that strip frontmatter.
+Open the body with what the skill does, not credits. Give the canonical
+source and a feedback pathway (an issue tracker, a repository, a contact
+address) as an offer to draft a report, in a short section just before the
+footer. A published skill without a route back to its author cannot
+improve from its readers.
 
 ### 3. Skills with rules must include a pre-flight verification step
 **Applies to:** all skills with explicit rules or requirements

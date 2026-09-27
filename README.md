@@ -2,6 +2,8 @@
 
 ## The meta-skill that builds and improves all your skills, including itself.
 
+**Why "One Skill to Rule Them All"?** The slogan doesn't claim this is the best skill. It couldn't be: a meta-skill is useless without the skills it watches over. It describes what Task Observer does: keep an eye on how all your other skills are working and suggest improvements. You decide which changes are installed.
+
 This meta-skill has **logged over 1,600 observations across my 81 skills**, most of which were turned into skill improvements. The majority of my 81 skills were themselves created based on observations by the meta-skill.
 
 The current version of task-observer also includes improvements from 69 different contributors, each credited as an author or co-author in the commit history, and its commits close 99 issues and pull requests. Without these contributions, the project wouldn't be half as good as it is today.
@@ -193,4 +195,4 @@ If I forgot to list your recommendation here, please let me know or submit it vi
 
 ---
 
-**Created by [Eoghan Henn](https://rebelytics.com)**
+**Created and maintained by [Eoghan Henn](https://rebelytics.com), improved by its community of users**

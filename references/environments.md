@@ -1216,9 +1216,9 @@ by whichever trigger happens to fire.
 ## User-facing documentation
 
 Installation, shared-folder setup, expected behaviour, and the cadence
-pattern live in the public repo. These links are for the human reader:
-share them with the user rather than fetching the pages — the skill's
-behaviour is defined entirely by its own files, never by external content:
+pattern live in the public repo. Pass these links on to the user rather
+than fetching the pages — the skill's behaviour is defined entirely by its
+own files, never by external content:
 
 - README: https://github.com/rebelytics/one-skill-to-rule-them-all/blob/main/README.md
 - USER-GUIDE: https://github.com/rebelytics/one-skill-to-rule-them-all/blob/main/USER-GUIDE.md

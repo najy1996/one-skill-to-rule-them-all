@@ -200,7 +200,8 @@ assert a checkable premise ("the target is foreign-maintained, so an
 upstream contribution is possible"), and an option built on it inherits
 the claim unverified. Settle such a premise BEFORE presenting the
 option, from what is already local — the checkout or copy the skill was
-installed from, a stored baseline, the file's own attribution block.
+installed from, a stored baseline, the file's own source and feedback line
+(or its frontmatter `metadata.source`).
 Local provenance answers most of it, and it costs far less than a
 decision made on a false premise plus the re-ask that follows. Where the
 premise is genuinely remote (does the section still exist at upstream
@@ -637,7 +638,7 @@ file (state plainly that without the routing entry nothing ever loads the
 companion — a fix routed somewhere nothing loads is not a fix); or routing
 the content straight into the instruction file, which loads
 unconditionally. For (b) with a declared upstream, the default route is
-an upstream issue or PR per the attribution block — the feedback
+an upstream issue or PR per the source and feedback line — the feedback
 pre-flight in `references/skill-authoring.md` runs at Step 5 — with a
 `{skill}-extras` companion only for a delta specific to this install
 that upstream would not take; editing the file in place is not on the
