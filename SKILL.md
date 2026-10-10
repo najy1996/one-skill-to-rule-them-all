@@ -178,6 +178,8 @@ act of memory.
 
 **Numbering discipline (mandatory, every append):**
 
+If the workspace provides a log-append helper script (named in its CLAUDE.md or equivalent), use it instead of running steps 1-3 and the survival check by hand.
+
 1. *Pre-check:* read the actual log and find the highest existing number —
    never trust session memory:
 
